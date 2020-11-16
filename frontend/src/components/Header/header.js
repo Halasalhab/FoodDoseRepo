@@ -30,12 +30,13 @@ function Header() {
         <div className={classes.root}>
             <AppBar position="static" class="appbar">
                 <Toolbar>
-                    
-                    <Typography variant="h6" className={classes.title} id="fooddose" >
+                    <Typography variant="h6" className={classes.title} id="fooddose"  onClick={() => {
+                   window.location.href='/'
+                }}>
                         FoodDose
-                        </Typography>
+        </Typography>
                     <Login onClick={() => {
-                        history.push('/login')
+                        window.location.href='/login' 
                     }} id="login">LogIn</Login>
                 </Toolbar>
             </AppBar>

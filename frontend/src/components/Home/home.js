@@ -16,19 +16,23 @@ function Home() {
     return (
         <div class='container'>
            {/* <Header/> */}
-           <Router>
+           {/* <Router>
                     <Route path="/fastfoodres" exact component={() => <Fastresturant />} />
-                </Router>
+                </Router> */}
             <table align="center">
                 <tr>
-                    <td><img src={fastfood} alt="img" class="img" /></td>
+                    <td><img src={fastfood} alt="img" class="img"  onClick={() => {
+                   window.location.href='/fastfoodres'
+                }}/></td>
                     <td><img src={healthyfood} alt="img" class="img" /></td>
                     <td><img src={barbecue} alt="img" class="img" /></td>
                     <td><img src={salad} alt="img" class="img" /></td>
                     <td><img src={drinks} alt="img" class="img" /></td>
                 </tr>
                 <tr>
-                    <th class="text-center">Fast Food</th>
+                    <th class="text-center" onClick={() => {
+                   window.location.href='/fastfoodres'
+                }}>Fast Food</th>
                     <th class="text-center">Healthy Food</th>
                     <th class="text-center">Barbecue</th>
                     <th class="text-center">Salad</th>

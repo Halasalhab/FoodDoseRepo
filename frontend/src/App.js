@@ -6,7 +6,6 @@ import SignUp from '../src/components/Signup/signUp.js';
 import Home from '../src/components/Home/home.js';
 import Header from '../src/components/Header/header.js';
 import Fastresturant from '../src/components/Fastresturant/fastresturant.js'
-// import Fastresturant from '../src/components/Fastresturant/fastresturant.js';
 class App extends Component {
     render() {
         return (
