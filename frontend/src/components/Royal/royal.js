@@ -18,9 +18,9 @@ function Royal() {
                 </div>
 
                 <div class="royalsocial">
-                    <a href="https://www.facebook.com/" ><FacebookIcon style={{ color: "#F69624" }} stroke={"black"} stroke-width={2} /></a>
-                    <a href="https://www.instagram.com/" ><InstagramIcon style={{ color: "black" }} /></a>
-                    <a href="https://www.twitter.com/" ><TwitterIcon style={{ color: "#F69624" }} stroke={"black"} stroke-width={2} /></a>
+                    <a href="https://www.facebook.com/" ><FacebookIcon style={{ color: "white", fontSize: "xx-large" }} stroke={"black"} stroke-width={2} /></a>
+                    <a href="https://www.instagram.com/" ><InstagramIcon style={{ color: "black", fontSize: "xx-large" }} /></a>
+                    <a href="https://www.twitter.com/" ><TwitterIcon style={{ color: "white", fontSize: "xx-large" }} stroke={"black"} stroke-width={2} /></a>
                 </div>
             </div>
         </div >

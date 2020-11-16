@@ -18,11 +18,11 @@ function Fastresturant() {
 
             <table align="center">
                 <tr>
-                    <td><img src={kfc} alt="img" class="img" /></td>
-                    <td><img src={alrayan} alt="img" class="img" /></td>
-                    <td><img src={dollar} alt="img" class="img" /></td>
-                    <td><img src={dayia} alt="img" class="img" /></td>
-                    <td><img src={chilliHouse} alt="img" class="img" /></td>
+                    <td><img src={kfc} alt="img" class="imag" /></td>
+                    <td><img src={alrayan} alt="img" class="imag" /></td>
+                    <td><img src={dollar} alt="img" class="imag" /></td>
+                    <td><img src={dayia} alt="img" class="imag" /></td>
+                    <td><img src={chilliHouse} alt="img" class="imag" /></td>
                 </tr>
                 <tr>
                     <th class="text-center">KFC</th>
@@ -33,13 +33,13 @@ function Fastresturant() {
                 </tr>
                 <tr></tr>
                 <tr>
-                    <td><img src={Mrbaker} alt="img" class="img" /></td>
-                    <td><img src={yummy} alt="img" class="img" /></td>
-                    <td><img src={segafredo} alt="img" class="img" /></td>
-                    <td><img src={royal} alt="img" class="img" onClick={() => {
+                    <td><img src={Mrbaker} alt="img" class="imag" /></td>
+                    <td><img src={yummy} alt="img" class="imag" /></td>
+                    <td><img src={segafredo} alt="img" class="imag" /></td>
+                    <td><img src={royal} alt="img" class="imag" onClick={() => {
                         window.location.href = '/fastfoodres/royal'
                     }} /></td>
-                    <td><img src={uburger} alt="img" class="img" /></td>
+                    <td><img src={uburger} alt="img" class="imag" /></td>
                 </tr>
                 <tr>
                     <th class="text-center">Mr.Baker</th>
