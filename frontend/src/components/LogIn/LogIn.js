@@ -8,7 +8,6 @@ import FormControl from "@material-ui/core/FormControl";
 import { TextField, Typography } from "@material-ui/core";
 import Box from "@material-ui/core/Box";
 import './LogIn.css'
-
 class Login extends Component {
     constructor() {
         super();
@@ -52,8 +51,15 @@ class Login extends Component {
             <Box display="flex" justifyContent="center" alignItems="center" minHeight="40vh">
 
                 <form onSubmit={this.onSubmit} >
-                <FormControl margin="normal" required >
+                <FormControl margin="normal" required  style={{
+                            border: 0,
+                            borderRadius: 30
+                        }}>
                         <TextField
+                        //  style={{
+                        //     border: 0,
+                        //     borderRadius: 3
+                        // }}
                             id="email"
                             name="email"
                             type="email"

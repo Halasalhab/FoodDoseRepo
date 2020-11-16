@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+
+.royalimg {
+    border: none;
+    border-radius: 15px;
+    width: 659px;
+    height: 472px;
+    opacity: 2;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    resize: vertical;
+    display: inline
+}
+
+.royalinfo {
+float: right;
+margin-left: 50%;
+margin-top: -30%;
+position: relative;  
+}
+
+.royalsocial {
+    float: right;
+    margin-left: 80%;
+    margin-top: -15%;
+    position: absolute;  
+}
+
+h1 {
+    font-size: 30px;
+    color: #F69624;
+
+}

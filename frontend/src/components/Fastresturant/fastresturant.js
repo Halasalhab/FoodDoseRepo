@@ -36,14 +36,16 @@ function Fastresturant() {
                     <td><img src={Mrbaker} alt="img" class="img" /></td>
                     <td><img src={yummy} alt="img" class="img" /></td>
                     <td><img src={segafredo} alt="img" class="img" /></td>
-                    <td><img src={royal} alt="img" class="img" /></td>
+                    <td><img src={royal} alt="img" class="img" onClick={() => {
+                        window.location.href = '/fastfoodres/royal'
+                    }} /></td>
                     <td><img src={uburger} alt="img" class="img" /></td>
                 </tr>
                 <tr>
                     <th class="text-center">Mr.Baker</th>
                     <th class="text-center">Yummy</th>
                     <th class="text-center">Segafredo</th>
-                    <th class="text-center">Royal resturant</th>
+                    <th class="text-center" onClick={() => { window.location.href = '/fastfoodres/royal' }}>Royal resturant</th>
                     <th class="text-center">U Burger</th>
                 </tr>
             </table>

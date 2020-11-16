@@ -3,15 +3,12 @@ const routers = express.Router();
 const userSchema = require('./modules/SignUpModule.js');
 // const login = require('./controllers/logIn')
 
-
-
 routers.get('/', function (req, res, next) {
     res.send('hello world ');
 });
 
 //Home rout 
-// routers.post('/', function (req, res) {
-    
+// routers.post('/', function (req, res) {  
 // });
 
 // SignUP rout / post data 
@@ -37,17 +34,17 @@ routers.post('/login', (req, res) => {
     const { Email, Password } = req.body;
     userSchema.findOne({
         where: { Email, Password },
-
     })
-
         .then((data) => res.status(200).send(data))
         .catch((err) => res.status(404).send(err, "error"));
-
 })
+
 routers.post('/fastfoodres', (req, res) => {
-  
 
 })
 
+routers.post('/fastfoodres/royal', (req, res) => {
+
+})
 
 module.exports = routers;
