@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "FastFood",
+        "Image": "./fastfood.png"
+    },
+    {
+        "Name": "HealthyFood ",
+        "Image": "./healthyfood.png"
+    },
+    {
+        "Name": "Barbecue",
+        "Image": "./barbecue.png"
+    },
+    {
+        "Name": "Salad",
+        "Image": "./salad.png"
+    },
+    {
+        "Name": "Drinks",
+        "Image": "./drinks.png"
+    },
+    {
+        "Name": "Bakeries",
+        "Image": "./bakries.png"
+    },
+    {
+        "Name": "Traditional Food",
+        "Image": "./traditional.png"
+    },
+    {
+        "Name": "Pasta",
+        "Image": "./pasta.png"
+    },
+    {
+        "Name": "Dessert",
+        "Image": "./desert.png"
+    },
+    {
+        "Name": "Sea Food",
+        "Image": "./seafood.png"
+    }
+]

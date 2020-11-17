@@ -1,0 +1,56 @@
+[
+    {
+        "Name": "KFC",
+        "Image": "./kfc.png",
+        "Phone": "02252496",
+        "Address": "Hebron"
+    },
+    {
+        "Name": "Shawerma Al-Rayan ",
+        "Image": "./alryan.png",
+        "Phone": "02252599",
+        "Address": "Hebron"
+    },
+    {
+        "Name": "Dollar resturant",
+        "Image": "./dollar.png",
+        "Phone": "02252596",
+        "Address": "Hebron"
+    },
+    {
+        "Name": "Al-Daiaa",
+        "Image": "./aldyaa.png",
+        "Phone": "02252951",
+        "Address": "Hebron"
+    },
+    {
+        "Name": "chili House",
+        "Image": "./chilli.png",
+        "Phone": "02252592",
+        "Address": "Hebron"
+    },
+    {
+        "Name": "ALQuds Resturant",
+        "Image": "./alqus.png",
+        "Phone": "+972 2-221-3833",
+        "Address": "Hebron-Ras AlJura"
+    },
+    {
+        "Name": "AbuMazen Resturant",
+        "Image": "./abumazen.png",
+        "Phone": "02252896",
+        "Address": "Hebron-Namera stree"
+    },
+    {
+        "Name": "Hekayet Bahar ",
+        "Image": "./hekaya.png",
+        "Phone": "022291849",
+        "Address": "Hebron"
+    },
+    {
+        "Name": "safinat.alsayyad",
+        "Image": "./safinat.png",
+        "Phone": "02-2294081",
+        "Address": "Hebron"
+    }
+]
