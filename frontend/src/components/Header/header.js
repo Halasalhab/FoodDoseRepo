@@ -22,8 +22,19 @@ const Login = styled(Button)({
     height: 48,
     padding: '20px 30px',
 });
+// const show=true;
+console.log(window.location.href);
+// function showw(){
+
+//     if(pathname!==('/login')){
+//         return {
+            
+//         }
+//     }
+// }
 function Header() {
     const classes = useStyles();
+    
     return (
         <div className={classes.root}>
             <AppBar position="static" class="appbar">
@@ -34,10 +45,19 @@ function Header() {
                     }} >
                         FoodDose
                         </Typography>
-
+                    {/* if(pathname!==('/login')){
+                        return {
+                            
+                        }
+                    } */}
+                   
+                       {/* this.show ? */}
+                    <p id="hi">
                     <Login onClick={() => {
                         window.location.href = '/login'
                     }} id="login">LogIn</Login>
+                    </p>
+                
                 </Toolbar>
             </AppBar>
         </div>

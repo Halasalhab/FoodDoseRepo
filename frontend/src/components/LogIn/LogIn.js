@@ -3,12 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import Button from "@material-ui/core/Button";
 import FormControl from "@material-ui/core/FormControl";
-// import Footer from '../Footer/footer.js';
-// import Header from '../Header/header.js'
 import { TextField, Typography } from "@material-ui/core";
 import Box from "@material-ui/core/Box";
 import './LogIn.css'
+console.log(window.location.href);
+
 class Login extends Component {
+    
     constructor() {
         super();
         this.state = {
@@ -46,20 +47,12 @@ class Login extends Component {
         return (
         
             <div >
-                {/* <Header/> */}
             <Typography component="h1" variant="h3" align="center" id="title"> Login</Typography><br />
             <Box display="flex" justifyContent="center" alignItems="center" minHeight="40vh">
 
                 <form onSubmit={this.onSubmit} >
-                <FormControl margin="normal" required  style={{
-                            border: 0,
-                            borderRadius: 30
-                        }}>
-                        <TextField
-                        //  style={{
-                        //     border: 0,
-                        //     borderRadius: 3
-                        // }}
+                <FormControl margin="normal" required >
+                        <TextField 
                             id="email"
                             name="email"
                             type="email"
@@ -79,21 +72,19 @@ class Login extends Component {
                         />
                     </FormControl><br /><br />
                    
-                    <Button id="btn"
+                    <Button 
                         onClick={this.handleSubmit}
                         type="submit"
                         size="large"
                         variant="contained"
                         justifyContent="center"
-
-
+                        id="btn"
                     >
                        Login
           </Button>
                 </form>
 
             </Box>
-            {/* <Footer /> */}
         </div >
         );
     }
