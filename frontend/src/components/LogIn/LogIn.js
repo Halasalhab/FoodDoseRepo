@@ -6,8 +6,6 @@ import FormControl from "@material-ui/core/FormControl";
 import { TextField, Typography } from "@material-ui/core";
 import Box from "@material-ui/core/Box";
 import './LogIn.css'
-console.log(window.location.href);
-
 class Login extends Component {
     
     constructor() {

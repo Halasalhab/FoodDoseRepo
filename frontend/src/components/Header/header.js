@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{Component} from 'react';
 import './header.css'
 import { styled, makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -32,9 +32,22 @@ console.log(window.location.href);
 //         }
 //     }
 // }
-function Header() {
-    const classes = useStyles();
-    
+class Header extends Component() {
+    constructor(){
+    super()
+    this.state={
+    show:true,
+    classes = useStyles()
+    }
+    }
+    showfun(){
+        if(window.location.href==="http://localhost:3000/signup"){
+            this.setState({show:!this.state.show})
+
+        }
+    }
+    // const classes = useStyles();
+    render(){
     return (
         <div className={classes.root}>
             <AppBar position="static" class="appbar">
@@ -52,16 +65,22 @@ function Header() {
                     } */}
                    
                        {/* this.show ? */}
-                    <p id="hi">
-                    <Login onClick={() => {
+                    
+                   {/* { 
+                   this.state.show ?
+                   return  */}
+                   <Login this.state.show={true} onClick={() => {
                         window.location.href = '/login'
                     }} id="login">LogIn</Login>
-                    </p>
+                   {/* } */}
+                
+                    
                 
                 </Toolbar>
             </AppBar>
         </div>
     );
+                }
 }
 
 export default Header;
